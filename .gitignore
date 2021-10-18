@@ -1,0 +1,5 @@
+build/
+.vsocde
+*.o
+*.a
+*.so
