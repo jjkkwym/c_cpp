@@ -5,3 +5,6 @@ project(c_cpp)
 add_subdirectory(src)
 
 add_subdirectory(test)
+
+add_custom_target(LS
+                  COMMAND ls -l)

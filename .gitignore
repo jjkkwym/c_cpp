@@ -1,5 +1,5 @@
 build/
-.vsocde/
+.vscode/
 *.o
 *.a
 *.so
