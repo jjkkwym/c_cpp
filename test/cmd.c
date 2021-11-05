@@ -50,8 +50,7 @@ typedef struct
     uint8_t is_with_para;
     char *para;
     uint8_t para_max_len;
-}
-cmd_info_t;
+}cmd_info_t;
 
 
 typedef struct
@@ -103,7 +102,6 @@ int main(int argc, char const *argv[])
 {
     cmd_format_cfg_t cmd_format_cfg;
     cmd_init(&cmd_format_cfg);
-    LOG_INFO("%s",cmd_group[0]->name);
     
     
     LOG_INFO("size:%d",sizeof(size_t));

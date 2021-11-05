@@ -6,5 +6,6 @@ add_subdirectory(src)
 
 add_subdirectory(test)
 
-add_custom_target(LS
-                  COMMAND ls -l)
+add_subdirectory(program)
+
+add_custom_target(LS COMMAND ls -l)

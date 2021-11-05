@@ -23,3 +23,8 @@ sudo update-alternatives --remove cmake /home/flc/cmake-3.21.3-linux-x86_64/bin/
 ## ubuntu
 
 apt list --installed
+
+## nc
+
+nc -l localhost 7000
+nc localhost 7000
