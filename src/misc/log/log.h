@@ -70,6 +70,13 @@ typedef enum
 #define LOG_HEXDUMP(str,data,length) array_print("[HEXDUMP] "str,data,length)
 #define LOG_HEX(x)          printf(#x ":0x%02x\n",x)
 
+#define BUG(format,...)   \
+do                        \
+{                         \
+    write_log("[%s][BUG]"format"\n",log_timestamp(),##__VA_ARGS__); \
+    while(1);                                                       \
+} while(0);
+
 typedef struct
 {
     char *name;              /* file name */
