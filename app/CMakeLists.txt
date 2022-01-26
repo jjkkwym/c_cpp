@@ -1,0 +1,2 @@
+add_executable(app_test_libs app_test_libs.c)
+target_link_libraries(app_test_libs whole_libs)
