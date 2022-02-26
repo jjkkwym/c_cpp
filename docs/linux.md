@@ -28,3 +28,8 @@ apt list --installed
 
 nc -l localhost 7000
 nc localhost 7000
+
+## chattr
+
+set root the file can not be write and remove
+chattr +i file
