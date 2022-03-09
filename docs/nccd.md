@@ -7,3 +7,5 @@
 adb pull /mnt/UDISK/private/ /tmp/
 adb pull /mnt/UDISK/data/tee /tmp/
 adb pull /mnt/UDISK/encrypt  /tmp/
+
+## secure

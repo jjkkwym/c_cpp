@@ -1,5 +1,5 @@
 # abbreviation
 
-rsp     response
-req     request
-evt     event
+**resp**    response
+**req**     request
+**evt**      event

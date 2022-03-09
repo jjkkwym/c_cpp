@@ -21,7 +21,5 @@ int main(int argc, char const *argv[])
     order.ram_id;
     for(int i = 0;i < 8;i++)
     {
-        if()
-        order.ram_id        
     }
 }
